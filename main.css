@@ -1,0 +1,73 @@
+
+        body{
+            text-align: center;
+            background: linear-gradient(to left, #C33764 , #1D2671);
+        }
+        
+        #weather{
+            
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 40px;
+            line-height: 20px;
+        }
+        
+        button{
+            border-radius: 10px;
+            box-shadow: none;
+            text-decoration: none;
+            border: 2px solid white;
+            height: 30px;
+            background-color: transparent;
+            color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            outline-style: none;   
+        }
+          
+          input{
+              width: 30%;
+              font-size: 20px;
+              text-align: center;
+              vertical-align: middle;
+              opacity: 0.5;
+              transition: width 1s; 
+              text-transform: capitalize;
+              box-shadow: none;
+              text-decoration: none;
+              border:none;
+              border-bottom: 2px solid white;
+              outline-style: none; 
+              background-color: transparent;
+              color: white;
+          }
+          
+          input:focus{
+              opacity: 1;
+              width: 50%;
+              color: white;
+              text-transform: capitalize;
+          }
+        
+          img{
+              width: 120px;
+          }
+          
+          #temp, #name{
+              font-size: 80px;
+              
+          }
+          
+          #desc{
+              text-transform: capitalize;
+              font-size: 60px;
+          }
+          
+          label{
+              font-size: 25px;
+          }
+ 
